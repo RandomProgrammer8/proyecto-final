@@ -1,0 +1,126 @@
+h1{
+    align-self: center;
+    color: rgb(228, 123, 123);
+    text-size-adjust: 70em;
+}
+.gatito{
+    width: 10em;
+    align-items: center;
+}
+#card_title{
+    color: rgb(255, 159, 159);
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+.menuBar{
+background-color: rgb(255, 204, 204);
+width: 100%;
+height: 20vh;
+}
+.ul_1{
+    list-style: none;
+    margin-left: 80%;
+    margin-right: 20%;
+    flex-direction: row;
+    width: 100%;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.random_items{
+    align-items: baseline;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    height: 25em;
+    width: auto;
+}
+.card_content{
+    margin: 0 auto;
+    background-color: white;
+    height: 20em;
+    width: 25em;
+    filter: sepia(40%);
+    box-shadow: 1mm 1mm 2mm rgba(0, 0, 0, 40%);
+    border-width: 1em;
+    font-family: 'Cutive Mono', monospace;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 159, 159);
+}
+.container_2{
+display: flex;
+height: 100em;
+width: 100%;
+font-family: 'Cutive Mono', monospace;
+flex-direction: column;
+line-height: 2em;
+}
+#cardButton{
+    background-color: rgb(255, 159, 159);
+    width: 23em;
+    height: 1%;
+    padding: 2em;
+    color: rgb(190, 111, 111);
+    border: 2em;
+    cursor: pointer;
+    border-radius: 1px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cultive Mono', monospace;
+    font-size: larger;
+}
+.card_title{
+    display: flex;
+    justify-content: center;
+}
+.gatito{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1{
+    height: 10em;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(255, 159, 159);
+    display: flex;
+    color: var(--white-color);
+    justify-content:space-between;
+    padding: 0 var(--space);
+    height: 60px;
+    align-items: center;
+}
+.card_description{
+    font-family: 'Cutive Mono', monospace; 
+    width: 22em;
+    height: 3em;
+    text-indent: 1em;
+    margin-left: 2em;
+}
+#collections{
+    font-family: 'Cookie', cursive;
+    color: rgb(255, 159, 159);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+#about{
+    font-size: x-large;
+    font-family: 'Cookie', cursive;
+    color: rgb(255, 159, 159);
+}
